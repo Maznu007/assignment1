@@ -1,4 +1,8 @@
 
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
 .banner {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -264,14 +268,13 @@
 .outer-div3 {
     justify-content: center;
     text-align: center;
-    display: block;
     padding-top: 50px;
 }
 
 .sub {
     flex-shrink: 0;
+    width: fit-content;
     border-radius: 8px;
-    background: #FFF;
     justify-content: center;
     text-align: center;
     padding-left: 245px;
